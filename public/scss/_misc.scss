@@ -1,0 +1,70 @@
+/*================================================/
+ BUTTON
+/=================================================*/
+
+.button {
+  border-radius: 0;
+  min-width: 100px;
+  margin-bottom: 0;
+
+  &.is-loading {
+    cursor: default;
+    color: transparent!important;
+    border-color: $color-grey;
+    background-image: url('../images/ajax-loader-circle.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent!important;
+  }
+}
+
+.button-wide {
+  min-width: 120px;
+}
+
+/*================================================/
+ FORM
+/=================================================*/
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-actions {
+  margin-top: 2rem;
+}
+
+
+/*================================================/
+ FLASH
+/=================================================*/
+
+.flash {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    padding: 15px;
+    text-align: center;
+    display: none;
+}
+
+/*================================================/
+ PAGINATION
+/=================================================*/
+
+.pagination {
+  margin-top: 2rem;
+
+  a:hover, button:hover {
+    background-color: #cccaca;
+  }
+}
+
+/*================================================/
+ SEARCH BAR
+/=================================================*/
+
+.search-bar {
+  margin-bottom: 2rem;
+}

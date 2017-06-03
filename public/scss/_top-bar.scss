@@ -1,0 +1,23 @@
+.top-bar {
+  padding: 0.2rem;
+
+  &, ul {
+    background-color: black;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+.top-bar-left {
+  .menu > li:first-child a {
+    padding-left: 0;
+  }
+}
+
+.top-bar-right {
+  .menu > li:last-child a {
+    padding-right: 0;
+  }
+}

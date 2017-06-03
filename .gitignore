@@ -1,0 +1,6 @@
+node_modules
+sass_cache
+sass-cache
+public/dist
+uploads
+.DS_Store
